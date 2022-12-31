@@ -55,6 +55,15 @@ let questions = [
         answer: 2
     },
     {
+        question: 'Como chamar uma função chamada "minhaFuncao"?',
+        options: [
+            'call minhaFuncao',
+            'call function minhaFuncao',
+            'minhaFuncao()'
+        ],
+        answer: 2
+    },
+    {
         question: 'Como escrever uma condicional IF no Javascript?',
         options: [
             'if i = 5',
