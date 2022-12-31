@@ -77,6 +77,45 @@ body {
 
 .scoreArea {
     display: none;
+    background-color: #999;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.scoreArea img {
+    width: auto;
+    height: 100px;
+    margin-bottom: 12px;
+}
+
+.scoreText1 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0d630d;
+}
+
+.scorePct {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.scoreArea button {
+    color: #FFF;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #555;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.scoreArea button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 
